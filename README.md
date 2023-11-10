@@ -16,7 +16,7 @@ The flash memory in an ESP32 microcontroller is organized into different regions
     |    OTA App Slot 2      |
     |-------------------------|
     |      Filesystem        |
-    |-------------------------|  <- 0x3F400000 (Filesystem Start)
+    |-------------------------|  <- 0x3F400000 (LittleFS Start)
     |        LittleFS        |
     |-------------------------|  <- 0x3F410000 (LittleFS End)
     |          SPIFFS         |
